@@ -1,0 +1,55 @@
+#img { display: none; }
+#canvas-container { position: relative; }
+canvas { position: absolute; left: 0; top: 0; }
+#point1 { z-index: 0; }
+#point2 { z-index: 1; }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: white !important;
+  }
+  
+.canvascolor {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #content{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+  }
+  form{
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  #display-image{
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+  }
+  canvas#point1{
+    height: 100%;
+    width: 100%;
+    }
+  canvas#point2{
+    height: 100%;
+    width: 100%;
+    }
