@@ -10,6 +10,7 @@ body {
   width: 80%;
   max-width: 800px;
   text-align: center;
+  background-color: white !important;
 }
 
 .background {
@@ -37,4 +38,28 @@ body {
   transform: translate(-50%, -50%);
   font-size: 24px;
   color: #ffffff;
+}
+.imgPreset{
+  width: 200px;
+  height: 200px; 
+}
+.buttonImg{
+  border: 0;
+  background: none;
+}
+.buttonborder{
+  border-radius: 12px !important;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.inputpole{
+  border-radius: 12px !important;
+  text-align: center;
+  text-decoration: none;
+}
+.texttd{
+  text-decoration: none;
+  border: none;
 }
